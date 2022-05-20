@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MonasteryModelStoreContainer" CdmEntityContainer="MonasteryEntities">
+    <EntitySetMapping Name="Fathers">
+      <EntityTypeMapping TypeName="MonasteryModel.Father">
+        <MappingFragment StoreEntitySet="Fathers">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MonasteryID" ColumnName="MonasteryID" />
+          <ScalarProperty Name="MainStoryTitle" ColumnName="MainStoryTitle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FathersIntroes">
+      <EntityTypeMapping TypeName="MonasteryModel.FathersIntro">
+        <MappingFragment StoreEntitySet="FathersIntro">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MonasteryID" ColumnName="MonasteryID" />
+          <ScalarProperty Name="TitleOfPage" ColumnName="TitleOfPage" />
+          <ScalarProperty Name="IntroText" ColumnName="IntroText" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Histories">
+      <EntityTypeMapping TypeName="MonasteryModel.History">
+        <MappingFragment StoreEntitySet="History">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="ImageDescription" ColumnName="ImageDescription" />
+          <ScalarProperty Name="MonasteryID" ColumnName="MonasteryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HistoryContents">
+      <EntityTypeMapping TypeName="MonasteryModel.HistoryContent">
+        <MappingFragment StoreEntitySet="HistoryContent">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ParagraphContent" ColumnName="ParagraphContent" />
+          <ScalarProperty Name="HistoryID" ColumnName="HistoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locations">
+      <EntityTypeMapping TypeName="MonasteryModel.Location">
+        <MappingFragment StoreEntitySet="Location">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MonasteryID" ColumnName="MonasteryID" />
+          <ScalarProperty Name="LinkOfLocation" ColumnName="LinkOfLocation" />
+          <ScalarProperty Name="HowToGoText" ColumnName="HowToGoText" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Monasteries">
+      <EntityTypeMapping TypeName="MonasteryModel.Monastery">
+        <MappingFragment StoreEntitySet="Monastery">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Places">
+      <EntityTypeMapping TypeName="MonasteryModel.Place">
+        <MappingFragment StoreEntitySet="Place">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MonasteryID" ColumnName="MonasteryID" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="ImageDescription" ColumnName="ImageDescription" />
+          <ScalarProperty Name="PlaceContent" ColumnName="PlaceContent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SaintParagraphs">
+      <EntityTypeMapping TypeName="MonasteryModel.SaintParagraph">
+        <MappingFragment StoreEntitySet="SaintParagraph">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SaintTitleID" ColumnName="SaintTitleID" />
+          <ScalarProperty Name="Paragraph" ColumnName="Paragraph" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SaintTitles">
+      <EntityTypeMapping TypeName="MonasteryModel.SaintTitle">
+        <MappingFragment StoreEntitySet="SaintTitle">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MonasteryID" ColumnName="MonasteryID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SaintVideos">
+      <EntityTypeMapping TypeName="MonasteryModel.SaintVideo">
+        <MappingFragment StoreEntitySet="SaintVideo">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MonasteryID" ColumnName="MonasteryID" />
+          <ScalarProperty Name="VideoLink" ColumnName="VideoLink" />
+          <ScalarProperty Name="VidedoDescription" ColumnName="VidedoDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StoryParagraphs">
+      <EntityTypeMapping TypeName="MonasteryModel.StoryParagraph">
+        <MappingFragment StoreEntitySet="StoryParagraph">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Paragraph" ColumnName="Paragraph" />
+          <ScalarProperty Name="StoryTitleID" ColumnName="StoryTitleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StoryTitles">
+      <EntityTypeMapping TypeName="MonasteryModel.StoryTitle">
+        <MappingFragment StoreEntitySet="StoryTitle">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="FatherID" ColumnName="FatherID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Videos">
+      <EntityTypeMapping TypeName="MonasteryModel.Video">
+        <MappingFragment StoreEntitySet="Video">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MonasteryID" ColumnName="MonasteryID" />
+          <ScalarProperty Name="VideoLink" ColumnName="VideoLink" />
+          <ScalarProperty Name="VideoDescription" ColumnName="VideoDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

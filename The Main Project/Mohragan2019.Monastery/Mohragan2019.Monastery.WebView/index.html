@@ -1,0 +1,236 @@
+﻿<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Content/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Content/Navbar.css">
+    <link rel="stylesheet" type="text/css" href="Content/LoadingSpinner.css">
+    <link rel="icon" href="Images/Coptic Icon.png">
+    <meta charset="utf-8">
+    <title>
+        الأديرة المصرية
+    </title>
+    <style>
+        .carousel-inner > .item > a > img,
+        .carousel-inner > .item > img {
+            max-width: 100%;
+            max-height: 550px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body onload="myFunction()" dir="rtl" background="Images/Background.jpg">
+    <div id="loader"></div>
+        <nav class="navbar navbar-inverse" style="background-color: black;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <span class="text">
+                            <span class="text1">
+                                الأديرة
+                            </span>
+                            <span class="text2">
+                                المصرية
+                            </span>
+                        </span>
+                    </a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar" style="background-color: black;" class="col-xs-12">
+                    <div style="float: right;">
+                        <ul id="touch" class="nav navbar-nav">
+                            <!--<li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                   aria-expanded="false" style="font-size: 18px; color: white;">
+                                    عن كل دير &nbsp;
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" style="background-color: black;">
+                                    <li><a href="Pages/History.html" style="font-size: 18px; color: white;">تاريخ الدير</a></li>
+                                    <li><a href="Pages/Location.html" style="font-size: 18px; color: white;">موقع الدير</a></li>
+                                    <li><a href="Pages/Fathers of monastry.html" style="font-size: 18px; color: white;">آباء الدير</a></li>
+                                    <li>
+                                        <a href="Pages/The story of mediator.html" style="font-size: 18px; color: white;">
+                                            قصة شفيع
+                                            الدير
+                                        </a>
+                                    </li>
+                                    <li><a href="#" style="font-size: 18px; color: white;">مطبوعات الدير</a></li>
+                                    <li><a href="Pages/Videos.html" style="font-size: 18px; color: white;">فيديوهات عن الدير</a></li>
+                                </ul>
+                            </li>-->
+                            <!--
+                            -->
+                            <li>
+                                <a href="Pages/The list of monastries.html" style="font-size: 18px; color: white;">قائمة الأديرة</a>
+                            </li>
+                            <li class="active">
+                                <a href="index.html" style="font-size: 18px; color: white; background-color: #3f800f;">
+                                    الصفحة الرئيسيه
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <div id="myDiv">
+        <div class="container">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="Images/apha anton.jpg" class="img-responsive center-block">
+                        <div class="carousel-caption">
+                            <h3>دير الأنبا انطونيوس - البحر الأحمر</h3>
+                        </div>
+                    </div>
+
+
+                    <div class="item">
+                        <img src="Images/apha poula.jpg" class="img-responsive center-block">
+                        <div class="carousel-caption">
+                            <h3>دير الانبا بولا - البحر الأحمر</h3>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="Images/apha bishoy.jpg" class="img-responsive center-block">
+                        <div class="carousel-caption">
+                            <h3>دير الانبا بيشوي - وادي النطرون</h3>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="jumbotron" style="background-color :#c1c1c1;">
+                        <h2>
+                            <b>
+                                مفهوم الدير :
+                            </b>
+                        </h2>
+                        <h3>
+                            <b>
+                                الدير : هو مكان يقيم فيه مجموعة من الرهبان أو الراهبات للعبادة والوحدة مع الله، وبه كنيسة أو أكثر. ولكل
+                                دير رئيس، وهو حاليًا
+                                يكون حاصل على رتبة الأسقفية. ومصر هي التي أنشأت نظام الرهبنة في العالم بواسطة القديس أنطونيوس المصري .
+                            </b>
+                        </h3>
+                        <hr style="border-color: black; width: 50%; height: 1%;">
+                        <h2>
+                            <b>
+                                كيف تأسست الرهبنة والأديرة :
+                            </b>
+                        </h2>
+                        <h3>
+                            <ul>
+                                <li>
+                                    <b>
+                                        أسس الأنبا أنطونيوس الرهبنة سنة 305م عندما تجمع حوله في الصحراء شبان يريدون أن يتعلموا منه الحياة
+                                        المسيحية فتلمذهم. ثم بعده
+                                        أسس الأنبا باخوميوس نظام الشركة. ولم ينل الأنبا أنطونيوس ولا الأنبا باخوميوس أي رتبة كهنوتية ولا أي
+                                        سلطة
+                                        كنسية. فلقد كانت الرهبنة حركة علمانية لا علاقة لها بالرئاسات الكنسية. واستمر تلاميذ الأنبا باخوميوس
+                                        بلا
+                                        كهنوت لمدة 100 سنة .
+                                    </b>
+                                </li>
+                                <br>
+                                <li>
+                                    <b>
+                                        وكثير من الشبان الأجانب جاءوا من بلادهم وترهبنوا في الأديرة المصرية وبدأ العالم يسمع عن الرهبنة ويؤسس
+                                        جماعات رهبانية في كل
+                                        مكان ومن هنا جاءت فكرة الأديرة ليجتمعوا فيها الرهبان والراهبات ويتفرغوا في الصلاة وعلاقتهم القوية مع
+                                        يسوع
+                                        المسيح وكل ذلك بتدبير الله ليخصص هؤلاء الرهبان والراهبات ان يكونوا قدوة لمن غيرهم ويكونوا سبب في تمجيد
+                                        اسم الرب حيث ان : "الله نزل إلى الأرض ليقوم بإصعاد الإنسان إلى السماء. الله تجسد ليغفر خطية الإنسان
+                                        ويقدسه
+                                        ويعده لسكنى السماء. لذلك نقول في التسبحة "أخذ الذي لنا وأعطانا الذي له ".
+                                    </b>
+                                </li>
+                            </ul>
+                        </h3>
+                        <hr style="border-color: black; width: 50%; height: 1%;">
+                        <h3>
+                            <b>
+                                وهذا الموقع به دليل الأديرة المصرية (القبطية) في مصر، سواء الحالية (العامرة) أو المندثرة التي لا يوجد بها
+                                رهبان، وسواء أكان
+                                مبناها أو مكانها موجود حاليًا أو اندثر مع الوقت فلذلك نعرض لكم
+                                <a href="Pages/The list of monastries.html" style="text-decoration:none;">
+                                    قائمة عن أهم الأديرة الموجودة في مصر
+                                </a>
+                                ويتضمن الموقع الآتي عن كل دير :
+                            </b>
+                        </h3>
+                        <ul>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <li>
+                                        <h3>
+                                            قصة شفيع الدير
+                                        </h3>
+                                    </li>
+                                    <li>
+                                        <h3>
+                                            آباء الدير
+                                        </h3>
+                                    </li>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <li>
+                                        <h3>
+                                            تاريخ الدير
+                                        </h3>
+                                    </li>
+                                    <li>
+                                        <h3>
+                                            موقع الدير
+                                        </h3>
+                                    </li>
+                                    <li>
+                                        <h3>
+                                            فيديوهات عن الدير
+                                        </h3>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="myBtn" title="Go To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </button>
+
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/Uppage btn.js"></script>
+    <script src="Scripts/LoadingSpinnerJS.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/Navbar.css">
+  <link rel="icon" href="../Images/Coptic Icon.png">
+  <meta charset="utf-8">
+  <title>
+    موقع الدير
+  </title>
+  <style>
+    .btn:hover {
+      transition: 0.5s;
+    }
+  </style>
+</head>
+
+<body dir="rtl" background="../Images/Background.jpg">
+  <nav class="navbar navbar-inverse" style="background-color: black;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="../index.html">
+          <span class="text">
+            <span class="text1">
+              الأديرة
+            </span>
+            <span class="text2">
+              المصرية
+            </span>
+          </span>
+        </a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar" style="background-color: black;" class="col-xs-12">
+        <div style="float: right;">
+          <ul id="touch" class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false" style="font-size: 18px; color: white; background-color: #3f800f;">
+                موقع دير &nbsp;
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" style="background-color: black;">
+                <li><a href="History.html" style="font-size: 18px; color: white;">تاريخ الدير</a></li>
+                <li><a href="Location.html" style="font-size: 18px; color: white; background-color: #3f800f;">موقع
+                    الدير</a></li>
+                <li><a href="Fathers of monastry.html" style="font-size: 18px; color: white;">آباء الدير</a></li>
+                <li><a href="The story of mediator.html" style="font-size: 18px; color: white;"> قصة شفيع الدير</a></li>
+                <li><a href="#" style="font-size: 18px; color: white;">مطبوعات الدير</a></li>
+                <li><a href="Videos.html" style="font-size: 18px; color: white;">فيديوهات عن الدير</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="The list of monastries.html" style="font-size: 18px; color: white;">قائمة الأديرة</a>
+            </li>
+            <li class="active">
+              <a href="../index.html" style="font-size: 18px; color: white;">الصفحة الرئيسيه
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="jumbotron">
+        <h3 class="help-block">
+          <b>دير الأنبا انطونيوس - البحر الأحمر</b>
+        </h3>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3492.1416435491474!2d32.35174698491079!3d28.923844782303735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145729e7302b01c7%3A0xc85f6e90754995b7!2z2K_ZitixINin2YTYp9mG2KjYpyDYp9mG2LfZiNmG2YrZiNizINin2YTYqNit2LEg2KfZhNij2K3Zhdix!5e0!3m2!1sar!2seg!4v1564326855459!5m2!1sar!2seg"
+            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <br>
+        <a href="#" class="btn btn-primary">
+          <h4>كيفية الذهاب</h4>
+        </a>
+        <div id="Mydiv">
+          <h3>
+            <b>
+              يقع دير الانبا انطونيوس العامر على سفح جبل الجلالة فى محافظة البحر الأحمر قرب مدينة الزعفرانة، عندما تذهب
+              الى هذا الدير تمر
+              بسيارتك بين الجبال التى تحيط بك فى منظر مهيب ، وترى السحب وهي تغطي الجبال ويخرج منها ضوء الشمس فى منظر
+              يعجز
+              الواصفون على وصفه، وعلى يسارك ترى البحر الأحمر فى أزهى ثوبه بمياهه الصافية وطيوره التى تطير من فوقه فى
+              منظر
+              خلاب حتى يختفي وسط الهضاب، وعندما تصل إلى مدق الدير ترى لافتة مكتوب عليها ” دير الانبا انطونيوس ” فتحدق
+              بعينيك
+              بعيداً فترى الدير محفوراً بداخل الجبل، تعلوه صلباناً مضيئة وكأنها نجوم تتلألأ فى السماء فى منظر بديع .
+            </b>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button id="myBtn" title="Go To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </button>
+
+  <script src="../bootstrap/js/jquery-1.10.2.min.js"></script>
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+  <script src="../JS/Uppage btn.js"></script>
+  <script>
+    $('#Mydiv').hide();
+
+    $('.btn').click(function (e) {
+      e.preventDefault();
+      $('#Mydiv').fadeIn();
+    });
+  </script>
+</body>
+
+</html>

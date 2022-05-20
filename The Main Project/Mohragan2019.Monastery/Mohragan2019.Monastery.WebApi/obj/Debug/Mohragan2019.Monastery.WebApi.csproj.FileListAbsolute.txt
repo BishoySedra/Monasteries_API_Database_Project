@@ -1,0 +1,163 @@
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\csc.exe
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\System.Collections.Immutable.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\System.Reflection.Metadata.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\vbc.exe
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\VBCSCompiler.exe
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\VBCSCompiler.exe.config
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Mohragan2019.Monastery.WebApi.dll.config
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Mohragan2019.Monastery.WebApi.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Mohragan2019.Monastery.WebApi.pdb
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Antlr3.Runtime.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\EntityFramework.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\EntityFramework.SqlServer.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Microsoft.Web.Infrastructure.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Newtonsoft.Json.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Net.Http.Formatting.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Cors.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Helpers.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.Cors.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.WebHost.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Mvc.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Optimization.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Razor.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.Deployment.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.Razor.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\WebGrease.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\EntityFramework.xml
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\EntityFramework.SqlServer.xml
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Net.Http.Formatting.xml
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.xml
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.Cors.xml
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Newtonsoft.Json.xml
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Helpers.xml
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.WebHost.xml
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Mvc.xml
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Optimization.xml
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Razor.xml
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.xml
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.Deployment.xml
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.Razor.xml
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Antlr3.Runtime.pdb
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\obj\Debug\Mohragan2019.Monastery.WebApi.csproj.CoreCompileInputs.cache
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\obj\Debug\Mohragan2019.Monastery.WebApi.csproj.CopyComplete
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\obj\Debug\Mohragan2019.Monastery.WebApi.dll
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\obj\Debug\Mohragan2019.Monastery.WebApi.pdb
+G:\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\obj\Debug\Mohragan2019.Monastery.WebApi.csprojAssemblyReference.cache
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\csc.exe
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\System.Collections.Immutable.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\System.Reflection.Metadata.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\vbc.exe
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\VBCSCompiler.exe
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\VBCSCompiler.exe.config
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Mohragan2019.Monastery.WebApi.dll.config
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Mohragan2019.Monastery.WebApi.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Mohragan2019.Monastery.WebApi.pdb
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Antlr3.Runtime.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\EntityFramework.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\EntityFramework.SqlServer.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Microsoft.Web.Infrastructure.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Newtonsoft.Json.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Net.Http.Formatting.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Cors.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Helpers.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.Cors.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.WebHost.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Mvc.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Optimization.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Razor.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.Deployment.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.Razor.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\WebGrease.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\EntityFramework.xml
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\EntityFramework.SqlServer.xml
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Net.Http.Formatting.xml
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.xml
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.Cors.xml
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Newtonsoft.Json.xml
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Helpers.xml
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.WebHost.xml
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Mvc.xml
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Optimization.xml
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Razor.xml
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.xml
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.Deployment.xml
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.Razor.xml
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Antlr3.Runtime.pdb
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\obj\Debug\Mohragan2019.Monastery.WebApi.csprojResolveAssemblyReference.cache
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\obj\Debug\Mohragan2019.Monastery.WebApi.dll
+E:\Bishoy\My Projects\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\obj\Debug\Mohragan2019.Monastery.WebApi.pdb
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\csc.exe
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\System.Collections.Immutable.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\System.Reflection.Metadata.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\vbc.exe
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\VBCSCompiler.exe
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\roslyn\VBCSCompiler.exe.config
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Mohragan2019.Monastery.WebApi.dll.config
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Mohragan2019.Monastery.WebApi.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Mohragan2019.Monastery.WebApi.pdb
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Antlr3.Runtime.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\EntityFramework.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\EntityFramework.SqlServer.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Microsoft.Web.Infrastructure.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Newtonsoft.Json.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Net.Http.Formatting.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Cors.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Helpers.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.Cors.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.WebHost.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Mvc.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Optimization.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Razor.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.Deployment.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.Razor.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\WebGrease.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\EntityFramework.xml
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\EntityFramework.SqlServer.xml
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Net.Http.Formatting.xml
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.xml
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.Cors.xml
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Newtonsoft.Json.xml
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Helpers.xml
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Http.WebHost.xml
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Mvc.xml
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Optimization.xml
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.Razor.xml
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.xml
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.Deployment.xml
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\System.Web.WebPages.Razor.xml
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\bin\Antlr3.Runtime.pdb
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\obj\Debug\Mohragan2019.Monastery.WebApi.csprojAssemblyReference.cache
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\obj\Debug\Mohragan2019.Monastery.WebApi.csproj.CoreCompileInputs.cache
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\obj\Debug\Mohragan2019.Monastery.WebApi.csproj.CopyComplete
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\obj\Debug\Mohragan2019.Monastery.WebApi.dll
+E:\Mahragan Projects\Bishoy Sedra\Project 2019\The Main Project\Mohragan2019.Monastery\Mohragan2019.Monastery.WebApi\obj\Debug\Mohragan2019.Monastery.WebApi.pdb

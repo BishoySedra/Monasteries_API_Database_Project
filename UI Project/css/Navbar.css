@@ -1,0 +1,84 @@
+#touch>li>a:hover {
+    background-color: #396916;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+    background-color: #396916;
+}
+
+#touch>li>a {
+    transition: 0.3s;
+}
+
+#touch>.active>a {
+    background-color: black;
+    transition: 0.3s;
+}
+
+#touch {
+    margin-right: -55px;
+}
+
+.navbar-inverse .navbar-brand .text1 {
+    color: #6ae60f;
+    font-size: 145%;
+}
+
+.navbar-inverse .navbar-brand .text2 {
+    color: white;
+    font-size: 145%;
+}
+
+.navbar-inverse .navbar-brand .text:hover {
+    transition: 0.5s;
+    text-shadow: 2px 2px 6px white;
+}
+
+.navbar-inverse .navbar-brand .text1:hover {
+    transition: 0.5s;
+    color: white;
+}
+
+.navbar-inverse .navbar-brand .text2:hover {
+    transition: 0.5s;
+    color: #6ae60f;
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: #396916;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3f800f;
+    border-radius: 3px;
+}
+
+#myBtn {
+    background-color: green;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 14px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20px;
+    opacity: 0.9;
+    transition: 0.3s ease;
+}
+
+#myBtn:hover {
+    background-color: black;
+}

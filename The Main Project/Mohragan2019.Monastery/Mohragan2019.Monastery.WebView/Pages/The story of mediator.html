@@ -1,0 +1,107 @@
+﻿<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../Content/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../Content/Navbar.css">
+    <link rel="stylesheet" type="text/css" href="../Content/LoadingSpinner.css" />
+    <link rel="icon" href="../Images/Coptic Icon.png">
+    <meta charset="utf-8">
+    <title>
+        قصة شفيع الدير
+    </title>
+</head>
+
+<body onload="myFunction()" dir="rtl" background="../Images/Background.jpg">
+
+    <nav class="navbar navbar-inverse" style="background-color: black;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="../index.html">
+                    <span class="text">
+                        <span class="text1">
+                            الأديرة
+                        </span>
+                        <span class="text2">
+                            المصرية
+                        </span>
+                    </span>
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" style="background-color: black;" class="col-xs-12">
+                <div style="float: right;">
+                    <ul id="touch" class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false"
+                               style="font-size: 18px; color: white; background-color: #3f800f;">
+                                دير الأنبا انطونيوس
+                                &nbsp;<span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" style="background-color: black;">
+                                <li style="font-size: 18px; color: white; text-align:center;">
+                                    دير الأنبا انطونيوس
+                                </li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="History.html" style="font-size: 18px; color: white;">تاريخ الدير</a></li>
+                                <li><a href="Location.html" style="font-size: 18px; color: white;">موقع الدير</a></li>
+                                <li>
+                                    <a href="Fathers of monastry.html" style="font-size: 18px; color: white;">
+                                        آباء
+                                        الدير
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="The story of mediator.html"
+                                       style="font-size: 18px; color: white; background-color: #3f800f;">
+                                        قصة شفيع
+                                        الدير
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="Videos.html" style="font-size: 18px; color: white;">فيديوهات عن الدير</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="The list of monastries.html" style="font-size: 18px; color: white;">
+                                قائمة
+                                الأديرة
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="../index.html" style="font-size: 18px; color: white;">
+                                الصفحة
+                                الرئيسيه
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="loader"></div>
+    <div id="myDiv">
+        <div class="container">
+            <div class="jumbotron" id="StoryContent">
+                <div id="VideoArea">
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="myBtn" title="Go To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </button>
+
+    <script src="../Scripts/jquery-1.10.2.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../Scripts/Uppage btn.js"></script>
+    <script src="../Scripts/SaintTitle.js"></script>
+    <script src="../Scripts/SaintVideo.js"></script>
+    <script src="../Scripts/LoadingSpinnerJS.js"></script>
+</body>
+
+</html>

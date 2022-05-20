@@ -1,0 +1,27 @@
+.btn:hover {
+    transition: 0.5s;
+}
+
+h4 {
+    font-size: 150%;
+}
+
+h5 {
+    font-size: 120%;
+}
+
+.dropdown-card>li>a {
+    padding: 3px 20px;
+    transition: 0.3s;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+}
+
+.dropdown-card>li>a:hover {
+    background-color: #205684;
+}
+
+.thumbnail {
+    background-color: #e2e2e2;
+}

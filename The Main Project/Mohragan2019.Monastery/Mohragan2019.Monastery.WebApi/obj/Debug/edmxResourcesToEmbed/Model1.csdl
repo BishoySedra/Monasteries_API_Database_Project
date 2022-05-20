@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MonasteryModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Father">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Image" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MonasteryID" Type="Int32" Nullable="false" />
+    <Property Name="MainStoryTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Monastery" Relationship="Self.FK_Fatherss_Monastery" FromRole="Fathers" ToRole="Monastery" />
+    <NavigationProperty Name="StoryTitles" Relationship="Self.FK_StoryTitle_Fathers" FromRole="Fathers" ToRole="StoryTitle" />
+  </EntityType>
+  <EntityType Name="FathersIntro">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MonasteryID" Type="Int32" Nullable="false" />
+    <Property Name="TitleOfPage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IntroText" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Monastery" Relationship="Self.FK_Fathers_Monastery" FromRole="FathersIntro" ToRole="Monastery" />
+  </EntityType>
+  <EntityType Name="History">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Image" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ImageDescription" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MonasteryID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Monastery" Relationship="Self.FK_History_Monastery" FromRole="History" ToRole="Monastery" />
+    <NavigationProperty Name="HistoryContents" Relationship="Self.FK_HistoryContent_History" FromRole="History" ToRole="HistoryContent" />
+  </EntityType>
+  <EntityType Name="HistoryContent">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ParagraphContent" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="HistoryID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="History" Relationship="Self.FK_HistoryContent_History" FromRole="HistoryContent" ToRole="History" />
+  </EntityType>
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MonasteryID" Type="Int32" Nullable="false" />
+    <Property Name="LinkOfLocation" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="HowToGoText" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Monastery" Relationship="Self.FK_MonasteryLocation_Monastery" FromRole="Location" ToRole="Monastery" />
+  </EntityType>
+  <EntityType Name="Monastery">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Image" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Fathers" Relationship="Self.FK_Fatherss_Monastery" FromRole="Monastery" ToRole="Fathers" />
+    <NavigationProperty Name="FathersIntroes" Relationship="Self.FK_Fathers_Monastery" FromRole="Monastery" ToRole="FathersIntro" />
+    <NavigationProperty Name="Histories" Relationship="Self.FK_History_Monastery" FromRole="Monastery" ToRole="History" />
+    <NavigationProperty Name="Locations" Relationship="Self.FK_MonasteryLocation_Monastery" FromRole="Monastery" ToRole="Location" />
+    <NavigationProperty Name="Places" Relationship="Self.FK_Place_Monastery" FromRole="Monastery" ToRole="Place" />
+    <NavigationProperty Name="SaintVideos" Relationship="Self.FK_SaintData_Monastery" FromRole="Monastery" ToRole="SaintVideo" />
+    <NavigationProperty Name="SaintTitles" Relationship="Self.FK_SaintTitle_Monastery" FromRole="Monastery" ToRole="SaintTitle" />
+    <NavigationProperty Name="Videos" Relationship="Self.FK_Videos_Monastery" FromRole="Monastery" ToRole="Video" />
+  </EntityType>
+  <EntityType Name="Place">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MonasteryID" Type="Int32" Nullable="false" />
+    <Property Name="Image" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ImageDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PlaceContent" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Monastery" Relationship="Self.FK_Place_Monastery" FromRole="Place" ToRole="Monastery" />
+  </EntityType>
+  <EntityType Name="SaintParagraph">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SaintTitleID" Type="Int32" Nullable="false" />
+    <Property Name="Paragraph" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="SaintTitle" Relationship="Self.FK_SaintParagraph_SaintTitle" FromRole="SaintParagraph" ToRole="SaintTitle" />
+  </EntityType>
+  <EntityType Name="SaintTitle">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MonasteryID" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Image" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Monastery" Relationship="Self.FK_SaintTitle_Monastery" FromRole="SaintTitle" ToRole="Monastery" />
+    <NavigationProperty Name="SaintParagraphs" Relationship="Self.FK_SaintParagraph_SaintTitle" FromRole="SaintTitle" ToRole="SaintParagraph" />
+  </EntityType>
+  <EntityType Name="SaintVideo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MonasteryID" Type="Int32" Nullable="false" />
+    <Property Name="VideoLink" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="VidedoDescription" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Monastery" Relationship="Self.FK_SaintData_Monastery" FromRole="SaintVideo" ToRole="Monastery" />
+  </EntityType>
+  <EntityType Name="StoryParagraph">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Paragraph" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="StoryTitleID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="StoryTitle" Relationship="Self.FK_StoryParagraph_StoryTitle" FromRole="StoryParagraph" ToRole="StoryTitle" />
+  </EntityType>
+  <EntityType Name="StoryTitle">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FatherID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Father" Relationship="Self.FK_StoryTitle_Fathers" FromRole="StoryTitle" ToRole="Fathers" />
+    <NavigationProperty Name="StoryParagraphs" Relationship="Self.FK_StoryParagraph_StoryTitle" FromRole="StoryTitle" ToRole="StoryParagraph" />
+  </EntityType>
+  <EntityType Name="Video">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MonasteryID" Type="Int32" Nullable="false" />
+    <Property Name="VideoLink" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="VideoDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Monastery" Relationship="Self.FK_Videos_Monastery" FromRole="Video" ToRole="Monastery" />
+  </EntityType>
+  <Association Name="FK_Fatherss_Monastery">
+    <End Role="Monastery" Type="Self.Monastery" Multiplicity="1" />
+    <End Role="Fathers" Type="Self.Father" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Monastery">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Fathers">
+        <PropertyRef Name="MonasteryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StoryTitle_Fathers">
+    <End Role="Fathers" Type="Self.Father" Multiplicity="1" />
+    <End Role="StoryTitle" Type="Self.StoryTitle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Fathers">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StoryTitle">
+        <PropertyRef Name="FatherID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Fathers_Monastery">
+    <End Role="Monastery" Type="Self.Monastery" Multiplicity="1" />
+    <End Role="FathersIntro" Type="Self.FathersIntro" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Monastery">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="FathersIntro">
+        <PropertyRef Name="MonasteryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_History_Monastery">
+    <End Role="Monastery" Type="Self.Monastery" Multiplicity="1" />
+    <End Role="History" Type="Self.History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Monastery">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="History">
+        <PropertyRef Name="MonasteryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HistoryContent_History">
+    <End Role="History" Type="Self.History" Multiplicity="1" />
+    <End Role="HistoryContent" Type="Self.HistoryContent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="History">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="HistoryContent">
+        <PropertyRef Name="HistoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MonasteryLocation_Monastery">
+    <End Role="Monastery" Type="Self.Monastery" Multiplicity="1" />
+    <End Role="Location" Type="Self.Location" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Monastery">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Location">
+        <PropertyRef Name="MonasteryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Place_Monastery">
+    <End Role="Monastery" Type="Self.Monastery" Multiplicity="1" />
+    <End Role="Place" Type="Self.Place" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Monastery">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Place">
+        <PropertyRef Name="MonasteryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SaintData_Monastery">
+    <End Role="Monastery" Type="Self.Monastery" Multiplicity="1" />
+    <End Role="SaintVideo" Type="Self.SaintVideo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Monastery">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SaintVideo">
+        <PropertyRef Name="MonasteryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SaintTitle_Monastery">
+    <End Role="Monastery" Type="Self.Monastery" Multiplicity="1" />
+    <End Role="SaintTitle" Type="Self.SaintTitle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Monastery">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SaintTitle">
+        <PropertyRef Name="MonasteryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Videos_Monastery">
+    <End Role="Monastery" Type="Self.Monastery" Multiplicity="1" />
+    <End Role="Video" Type="Self.Video" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Monastery">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Video">
+        <PropertyRef Name="MonasteryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SaintParagraph_SaintTitle">
+    <End Role="SaintTitle" Type="Self.SaintTitle" Multiplicity="1" />
+    <End Role="SaintParagraph" Type="Self.SaintParagraph" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SaintTitle">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SaintParagraph">
+        <PropertyRef Name="SaintTitleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StoryParagraph_StoryTitle">
+    <End Role="StoryTitle" Type="Self.StoryTitle" Multiplicity="1" />
+    <End Role="StoryParagraph" Type="Self.StoryParagraph" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StoryTitle">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StoryParagraph">
+        <PropertyRef Name="StoryTitleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MonasteryEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Fathers" EntityType="Self.Father" />
+    <EntitySet Name="FathersIntroes" EntityType="Self.FathersIntro" />
+    <EntitySet Name="Histories" EntityType="Self.History" />
+    <EntitySet Name="HistoryContents" EntityType="Self.HistoryContent" />
+    <EntitySet Name="Locations" EntityType="Self.Location" />
+    <EntitySet Name="Monasteries" EntityType="Self.Monastery" />
+    <EntitySet Name="Places" EntityType="Self.Place" />
+    <EntitySet Name="SaintParagraphs" EntityType="Self.SaintParagraph" />
+    <EntitySet Name="SaintTitles" EntityType="Self.SaintTitle" />
+    <EntitySet Name="SaintVideos" EntityType="Self.SaintVideo" />
+    <EntitySet Name="StoryParagraphs" EntityType="Self.StoryParagraph" />
+    <EntitySet Name="StoryTitles" EntityType="Self.StoryTitle" />
+    <EntitySet Name="Videos" EntityType="Self.Video" />
+    <AssociationSet Name="FK_Fatherss_Monastery" Association="Self.FK_Fatherss_Monastery">
+      <End Role="Monastery" EntitySet="Monasteries" />
+      <End Role="Fathers" EntitySet="Fathers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StoryTitle_Fathers" Association="Self.FK_StoryTitle_Fathers">
+      <End Role="Fathers" EntitySet="Fathers" />
+      <End Role="StoryTitle" EntitySet="StoryTitles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Fathers_Monastery" Association="Self.FK_Fathers_Monastery">
+      <End Role="Monastery" EntitySet="Monasteries" />
+      <End Role="FathersIntro" EntitySet="FathersIntroes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_History_Monastery" Association="Self.FK_History_Monastery">
+      <End Role="Monastery" EntitySet="Monasteries" />
+      <End Role="History" EntitySet="Histories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HistoryContent_History" Association="Self.FK_HistoryContent_History">
+      <End Role="History" EntitySet="Histories" />
+      <End Role="HistoryContent" EntitySet="HistoryContents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MonasteryLocation_Monastery" Association="Self.FK_MonasteryLocation_Monastery">
+      <End Role="Monastery" EntitySet="Monasteries" />
+      <End Role="Location" EntitySet="Locations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Place_Monastery" Association="Self.FK_Place_Monastery">
+      <End Role="Monastery" EntitySet="Monasteries" />
+      <End Role="Place" EntitySet="Places" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SaintData_Monastery" Association="Self.FK_SaintData_Monastery">
+      <End Role="Monastery" EntitySet="Monasteries" />
+      <End Role="SaintVideo" EntitySet="SaintVideos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SaintTitle_Monastery" Association="Self.FK_SaintTitle_Monastery">
+      <End Role="Monastery" EntitySet="Monasteries" />
+      <End Role="SaintTitle" EntitySet="SaintTitles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Videos_Monastery" Association="Self.FK_Videos_Monastery">
+      <End Role="Monastery" EntitySet="Monasteries" />
+      <End Role="Video" EntitySet="Videos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SaintParagraph_SaintTitle" Association="Self.FK_SaintParagraph_SaintTitle">
+      <End Role="SaintTitle" EntitySet="SaintTitles" />
+      <End Role="SaintParagraph" EntitySet="SaintParagraphs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StoryParagraph_StoryTitle" Association="Self.FK_StoryParagraph_StoryTitle">
+      <End Role="StoryTitle" EntitySet="StoryTitles" />
+      <End Role="StoryParagraph" EntitySet="StoryParagraphs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

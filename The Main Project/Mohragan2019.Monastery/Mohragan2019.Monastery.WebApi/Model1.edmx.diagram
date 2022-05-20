@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f46ad32475174750adea18184f612617" Name="Diagram1">
+        <EntityTypeShape EntityType="MonasteryModel.Father" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="MonasteryModel.FathersIntro" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MonasteryModel.History" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MonasteryModel.HistoryContent" Width="1.5" PointX="5.25" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MonasteryModel.Location" Width="1.5" PointX="3" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MonasteryModel.Monastery" Width="1.5" PointX="0.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MonasteryModel.Place" Width="1.5" PointX="3" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MonasteryModel.SaintParagraph" Width="1.5" PointX="5.25" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="MonasteryModel.SaintTitle" Width="1.5" PointX="3" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MonasteryModel.SaintVideo" Width="1.5" PointX="3" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MonasteryModel.StoryParagraph" Width="1.5" PointX="7.5" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MonasteryModel.StoryTitle" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MonasteryModel.Video" Width="1.5" PointX="3" PointY="22.375" IsExpanded="true" />
+        <AssociationConnector Association="MonasteryModel.FK_Fatherss_Monastery" ManuallyRouted="false" />
+        <AssociationConnector Association="MonasteryModel.FK_StoryTitle_Fathers" ManuallyRouted="false" />
+        <AssociationConnector Association="MonasteryModel.FK_Fathers_Monastery" ManuallyRouted="false" />
+        <AssociationConnector Association="MonasteryModel.FK_History_Monastery" ManuallyRouted="false" />
+        <AssociationConnector Association="MonasteryModel.FK_HistoryContent_History" ManuallyRouted="false" />
+        <AssociationConnector Association="MonasteryModel.FK_MonasteryLocation_Monastery" ManuallyRouted="false" />
+        <AssociationConnector Association="MonasteryModel.FK_Place_Monastery" ManuallyRouted="false" />
+        <AssociationConnector Association="MonasteryModel.FK_SaintData_Monastery" ManuallyRouted="false" />
+        <AssociationConnector Association="MonasteryModel.FK_SaintTitle_Monastery" ManuallyRouted="false" />
+        <AssociationConnector Association="MonasteryModel.FK_Videos_Monastery" ManuallyRouted="false" />
+        <AssociationConnector Association="MonasteryModel.FK_SaintParagraph_SaintTitle" ManuallyRouted="false" />
+        <AssociationConnector Association="MonasteryModel.FK_StoryParagraph_StoryTitle" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
